@@ -10,7 +10,7 @@ INSERT INTO EmployeeDemographics VALUES
 (1009, 'Kevin','Malone',31,'Male');
 
 INSERT INTO EmployeeDemographics VALUES
-(1010, 'Ryan','Howard',26,'Male'),
+(1011, 'Ryan','Howard',26,'Male'),
 (NULL,'Holly','Flax',NULL,NULL),
 (1013,'Darryl','Philbin',NULL,'Male');
 
@@ -29,3 +29,9 @@ INSERT INTO EmployeeSalary VALUES
 (1010, NULL, 47000),
 (NULL,'Salesman',43000);
 
+--insert data for union example video 
+Insert into WareHouseEmployeeDemographics VALUES
+(1013, 'Darryl', 'Philbin', NULL, 'Male'),
+(1050, 'Roy', 'Anderson', 31, 'Male'),
+(1051, 'Hidetoshi', 'Hasagawa', 40, 'Male'),
+(1052, 'Val', 'Johnson', 31, 'Female');

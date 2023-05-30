@@ -9,6 +9,11 @@ INSERT INTO EmployeeDemographics VALUES
 (1008, 'Stanley','Hudson',38,'Male'),
 (1009, 'Kevin','Malone',31,'Male');
 
+INSERT INTO EmployeeDemographics VALUES
+(1010, 'Ryan','Howard',26,'Male'),
+(NULL,'Holly','Flax',NULL,NULL),
+(1013,'Darryl','Philbin',NULL,'Male');
+
 INSERT INTO EmployeeSalary VALUES 
 (1001,'Salesman',45000),
 (1002,'Receptionist',36000),
@@ -19,4 +24,8 @@ INSERT INTO EmployeeSalary VALUES
 (1007,'Supplier Relations',41000),
 (1008,'Salesman',48000),
 (1009,'Accountant',42000);
+
+INSERT INTO EmployeeSalary VALUES
+(1010, NULL, 47000),
+(NULL,'Salesman',43000);
 
